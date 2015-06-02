@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  GetSystemPhotoVideo
 //
 //  Created by freedom on 15/6/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-

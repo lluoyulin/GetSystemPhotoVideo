@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		E6E93D6F1B1D83DD00151C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E93D6E1B1D83DD00151C4E /* main.m */; };
 		E6E93D721B1D83DD00151C4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E93D711B1D83DD00151C4E /* AppDelegate.m */; };
-		E6E93D751B1D83DD00151C4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E93D741B1D83DD00151C4E /* ViewController.m */; };
 		E6E93D781B1D83DD00151C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E93D761B1D83DD00151C4E /* Main.storyboard */; };
 		E6E93D7A1B1D83DD00151C4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E93D791B1D83DD00151C4E /* Images.xcassets */; };
 		E6E93D7D1B1D83DD00151C4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E93D7B1B1D83DD00151C4E /* LaunchScreen.xib */; };
 		E6E93D891B1D83DD00151C4E /* GetSystemPhotoVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E93D881B1D83DD00151C4E /* GetSystemPhotoVideoTests.m */; };
+		E6E93D941B1D846D00151C4E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E93D931B1D846D00151C4E /* MainViewController.m */; };
+		E6E93D971B1D858800151C4E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E93D961B1D858800151C4E /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6376FD21B1DA91F00DA419E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E6E93D691B1D83DD00151C4E /* GetSystemPhotoVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetSystemPhotoVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E93D6D1B1D83DD00151C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E93D6E1B1D83DD00151C4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6E93D701B1D83DD00151C4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6E93D711B1D83DD00151C4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E6E93D731B1D83DD00151C4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E6E93D741B1D83DD00151C4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E6E93D771B1D83DD00151C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6E93D791B1D83DD00151C4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E6E93D7C1B1D83DD00151C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E6E93D821B1D83DD00151C4E /* GetSystemPhotoVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetSystemPhotoVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E93D871B1D83DD00151C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E93D881B1D83DD00151C4E /* GetSystemPhotoVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetSystemPhotoVideoTests.m; sourceTree = "<group>"; };
+		E6E93D921B1D846D00151C4E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E6E93D931B1D846D00151C4E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E6E93D961B1D858800151C4E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E93D971B1D858800151C4E /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +85,12 @@
 		E6E93D6B1B1D83DD00151C4E /* GetSystemPhotoVideo */ = {
 			isa = PBXGroup;
 			children = (
-				E6E93D701B1D83DD00151C4E /* AppDelegate.h */,
-				E6E93D711B1D83DD00151C4E /* AppDelegate.m */,
-				E6E93D731B1D83DD00151C4E /* ViewController.h */,
-				E6E93D741B1D83DD00151C4E /* ViewController.m */,
+				E6E93D921B1D846D00151C4E /* MainViewController.h */,
+				E6E93D931B1D846D00151C4E /* MainViewController.m */,
 				E6E93D761B1D83DD00151C4E /* Main.storyboard */,
 				E6E93D791B1D83DD00151C4E /* Images.xcassets */,
 				E6E93D7B1B1D83DD00151C4E /* LaunchScreen.xib */,
+				E6E93D951B1D856300151C4E /* Frameworks */,
 				E6E93D6C1B1D83DD00151C4E /* Supporting Files */,
 			);
 			path = GetSystemPhotoVideo;
@@ -98,6 +101,8 @@
 			children = (
 				E6E93D6D1B1D83DD00151C4E /* Info.plist */,
 				E6E93D6E1B1D83DD00151C4E /* main.m */,
+				E6E93D701B1D83DD00151C4E /* AppDelegate.h */,
+				E6E93D711B1D83DD00151C4E /* AppDelegate.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +122,15 @@
 				E6E93D871B1D83DD00151C4E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6E93D951B1D856300151C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6376FD21B1DA91F00DA419E /* AVFoundation.framework */,
+				E6E93D961B1D858800151C4E /* AssetsLibrary.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E93D751B1D83DD00151C4E /* ViewController.m in Sources */,
 				E6E93D721B1D83DD00151C4E /* AppDelegate.m in Sources */,
+				E6E93D941B1D846D00151C4E /* MainViewController.m in Sources */,
 				E6E93D6F1B1D83DD00151C4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +432,7 @@
 				E6E93D8E1B1D83DD00151C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6E93D8F1B1D83DD00151C4E /* Build configuration list for PBXNativeTarget "GetSystemPhotoVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				E6E93D911B1D83DD00151C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
