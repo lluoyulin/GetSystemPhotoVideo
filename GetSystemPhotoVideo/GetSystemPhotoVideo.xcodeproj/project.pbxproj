@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E696AC501B20005900A6CEED /* ShowPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E696AC4F1B20005900A6CEED /* ShowPhotosViewController.m */; };
 		E6E93D6F1B1D83DD00151C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E93D6E1B1D83DD00151C4E /* main.m */; };
 		E6E93D721B1D83DD00151C4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E93D711B1D83DD00151C4E /* AppDelegate.m */; };
 		E6E93D781B1D83DD00151C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E93D761B1D83DD00151C4E /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		E6376FD21B1DA91F00DA419E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E696AC4E1B20005900A6CEED /* ShowPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPhotosViewController.h; sourceTree = "<group>"; };
+		E696AC4F1B20005900A6CEED /* ShowPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPhotosViewController.m; sourceTree = "<group>"; };
 		E6E93D691B1D83DD00151C4E /* GetSystemPhotoVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetSystemPhotoVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E93D6D1B1D83DD00151C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E93D6E1B1D83DD00151C4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 			children = (
 				E6E93D921B1D846D00151C4E /* MainViewController.h */,
 				E6E93D931B1D846D00151C4E /* MainViewController.m */,
+				E696AC4E1B20005900A6CEED /* ShowPhotosViewController.h */,
+				E696AC4F1B20005900A6CEED /* ShowPhotosViewController.m */,
 				E6E93D761B1D83DD00151C4E /* Main.storyboard */,
 				E6E93D791B1D83DD00151C4E /* Images.xcassets */,
 				E6E93D7B1B1D83DD00151C4E /* LaunchScreen.xib */,
@@ -235,6 +240,7 @@
 			files = (
 				E6E93D721B1D83DD00151C4E /* AppDelegate.m in Sources */,
 				E6E93D941B1D846D00151C4E /* MainViewController.m in Sources */,
+				E696AC501B20005900A6CEED /* ShowPhotosViewController.m in Sources */,
 				E6E93D6F1B1D83DD00151C4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
